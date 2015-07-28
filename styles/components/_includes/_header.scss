@@ -1,0 +1,22 @@
+header{
+	width:100%; position:fixed; background-image:url('../images/header/header-bg.png'); background-repeat:no-repeat; background-size:cover; height:75px;
+	
+	.header-inner{ position:relative; width:960px; margin:0 auto;	
+		.logo{float:left;}		
+		  nav{float:left;			
+			ul{list-style-type:none; margin:0;
+				li{ display:inline-block; vertical-align: middle; border-right:2px solid #262626; padding:9px 0; height: 49px;
+					a{display: block; text-decoration:none; font-family:$main-font; color:#fff; padding:15px 20px;}
+				}
+			}	
+		}
+		
+		.header-social{float:left;
+			li{display: inline-block; vertical-align: middle; padding:9px 0; height: 49px;
+					a{text-decoration:none; font-size:1.5em; padding:15px 20px;}
+			}
+			
+		}		
+	}
+	
+}

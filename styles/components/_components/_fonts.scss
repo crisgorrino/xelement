@@ -1,0 +1,23 @@
+
+@font-face {
+	@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$head-font:'Droid Sans', sans-serif;
+$main-font:'Droid Sans', sans-serif;
+
+.icon-facebook3:before {
+    content: "\ea8e";
+    color:#fff;
+}
+
+.icon-instagram:before {
+    content: "\ea90";
+     color:#fff;
+    
+}
