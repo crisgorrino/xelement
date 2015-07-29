@@ -448,21 +448,38 @@ header {
           padding: 15px 20px; }
 
 .container-0 {
-  padding-top: 69px;
+  padding-top: 4.8%;
   background-color: #1d1d1d; }
 
 .container-1 {
-  padding-top: 69px;
+  /*padding-top:69px;*/
   background-color: #1d1d1d; }
 
 .container-2 {
-  padding-top: 69px;
+  /*padding-top:69px;*/
   background-color: #282828; }
 
 .xelement, .beneficios, .productos, .contacto {
   color: #fff;
   width: 960px;
   margin: 0 auto; }
+
+.xelement {
+  padding: 50px 0; }
+  .xelement .section-logo {
+    float: left;
+    width: 15%;
+    padding-top: 2%; }
+  .xelement .separador {
+    padding: 0 6%; }
+  .xelement h1 {
+    float: right;
+    width: 66%;
+    font-weight: normal;
+    font-size: .9em;
+    line-height: 2em;
+    font-family: "Droid Sans", sans-serif;
+    padding-top: 2%; }
 
 footer {
   background-color: #1d1d1d; }
