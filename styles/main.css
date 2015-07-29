@@ -464,6 +464,10 @@ header {
   width: 960px;
   margin: 0 auto; }
 
+/*temporary*/
+.beneficios, .productos, .contacto {
+  padding: 50px 0; }
+
 .xelement {
   padding: 50px 0; }
   .xelement .section-logo {
