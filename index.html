@@ -6,18 +6,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="styles/main.css">
-		<link rel="stylesheet" href="https://i.icomoon.io/public/temp/6d2a53c02c/UntitledProject/style.css">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script	src="js/jquery.smint.js" type="text/javascript" ></script>
-		<script type="text/javascript">
-		$(document).ready( function() {
-		    $('.subMenu').smint({
-		    	'scrollSpeed' : 1000
-		    });
-		});
-		</script>
-
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <link type="text/css" rel="Stylesheet" href="styles/bjqs.css" />
     </head>
     <body>
 		<header class="cf">
@@ -37,7 +27,17 @@
 				</ul>
 			</div>
 		</header>
-		
+		<div class="container-0">
+			<div class="banner-fade">
+				<ul class="bjqs">
+					<li><img src="images/banners/X_Element.jpg" alt=""></li>
+					<li><img src="images/banners/_aqua.jpg" alt=""></li>
+					<li><img src="images/banners/_flamma.jpg" alt=""></li>
+					<li><img src="images/banners/_terra.jpg" alt=""></li>
+					<li><img src="images/banners/_ventus.jpg" alt=""></li>
+				</ul>
+			</div>
+		</div>
 		<div class="container-1">
 			<div class="xelement">
 				X ELEMENT
@@ -65,6 +65,27 @@
 			</div>
 			<img src="images/footer/bottom-border.jpg" alt="x element" class="footer-img-bottom">
 		</footer>
-				
+		
+		<!--scripts-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+		<script src="js/bjqs-1.3.min.js"></script>
+		<script type="text/javascript">
+		$(document).ready( function() {
+		    /*menu function*/
+		    $('.subMenu').smint({
+		    	'scrollSpeed' : 1000
+		    });
+		    
+		     /*baner slider function*/
+		    $('.banner-fade').bjqs({
+            height      : 320,
+            width       : 620,
+            responsive  : true
+          });		    
+		    
+		});
+		</script>
+		<!--scripts-->		
     </body>
 </html>
