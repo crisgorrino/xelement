@@ -1,15 +1,45 @@
+.left{float:left;}
+.right{float:right;}
+.both{clear:both;}
+.center{text-align:center;}
+
 .container-0{padding-top:4.8%; background-color:$drk-gray;}
 .container-1{/*padding-top:69px;*/ background-color:$drk-gray;}
 .container-2{/*padding-top:69px;*/ background-color:$lght-gray;}
 
-.xelement,.beneficios,.productos,.contacto{color:#fff; width:960px; margin:0 auto;}
+.xelement,.beneficios,.productos,.contacto,.beneficios2{color:#fff; width:960px; margin:0 auto;}
 
 /*temporary*/
-.beneficios,.productos,.contacto{padding:50px 0;}
+.beneficios2,.productos,.contacto{padding:50px 0;}
 
 
 .xelement{padding:50px 0;
 	.section-logo{float:left; width:15%; padding-top:2%;}
 	.separador{padding:0 6%;}
 	h1{float:right; width:66%; font-weight:normal; font-size: .9em; line-height: 2em; font-family:$main-font; padding-top:2%;}
+}
+
+
+.beneficios{
+	.ben-inner{
+		width:35%; text-align:right; padding: 0% 5% 0% 0%;;
+		h2{line-height:2em; letter-spacing: 1px;}
+		p{font-size: .75em;line-height:2em;}		
+	}
+	
+	.separador{display:inline-block; float:left;}
+	
+	.beneficios-img{display:inline-block; float:right;}
+}
+
+
+.contacto{
+	p{&:nth-of-type(2){margin-top:50px;}}
+	a{display: block; text-decoration:none; font-weight:bold; color:#fff; font-size:1.3em;}
+	.separador,.mail-ico{display:inline-block; margin:10px 0 0 0 ;}
+	.contact-social{list-style: none; margin:0; padding:0;
+		li{display: inline-block; padding:0 1%;
+			a{display: inline-block; }
+		}
+	}
 }

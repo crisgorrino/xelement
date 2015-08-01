@@ -376,8 +376,8 @@ blockquote {
   font-style: normal; }
 @font-face {
   font-family: 'icomoon';
-  src: url("https://i.icomoon.io/public/temp/43a44af84a/UntitledProject/icomoon.eot?-7z7jw0");
-  src: url("https://i.icomoon.io/public/temp/43a44af84a/UntitledProject/icomoon.eot?#iefix-7z7jw0") format("embedded-opentype"), url("https://i.icomoon.io/public/temp/43a44af84a/UntitledProject/icomoon.ttf?-7z7jw0") format("truetype"), url("https://i.icomoon.io/public/temp/43a44af84a/UntitledProject/icomoon.woff?-7z7jw0") format("woff"), url("https://i.icomoon.io/public/temp/43a44af84a/UntitledProject/icomoon.svg?-7z7jw0#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?-7z7jw0");
+  src: url("../fonts/icomoon.eot?#iefix-7z7jw0") format("embedded-opentype"), url("../fonts/icomoon.ttf?-7z7jw0") format("truetype"), url("../fonts/icomoon.woff?-7z7jw0") format("woff"), url("../fonts/icomoon.svg?-7z7jw0#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
@@ -447,6 +447,18 @@ header {
           font-size: 1.5em;
           padding: 15px 20px; }
 
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.both {
+  clear: both; }
+
+.center {
+  text-align: center; }
+
 .container-0 {
   padding-top: 4.8%;
   background-color: #1d1d1d; }
@@ -459,13 +471,13 @@ header {
   /*padding-top:69px;*/
   background-color: #282828; }
 
-.xelement, .beneficios, .productos, .contacto {
+.xelement, .beneficios, .productos, .contacto, .beneficios2 {
   color: #fff;
   width: 960px;
   margin: 0 auto; }
 
 /*temporary*/
-.beneficios, .productos, .contacto {
+.beneficios2, .productos, .contacto {
   padding: 50px 0; }
 
 .xelement {
@@ -484,6 +496,44 @@ header {
     line-height: 2em;
     font-family: "Droid Sans", sans-serif;
     padding-top: 2%; }
+
+.beneficios .ben-inner {
+  width: 35%;
+  text-align: right;
+  padding: 0% 5% 0% 0%; }
+  .beneficios .ben-inner h2 {
+    line-height: 2em;
+    letter-spacing: 1px; }
+  .beneficios .ben-inner p {
+    font-size: .75em;
+    line-height: 2em; }
+.beneficios .separador {
+  display: inline-block;
+  float: left; }
+.beneficios .beneficios-img {
+  display: inline-block;
+  float: right; }
+
+.contacto p:nth-of-type(2) {
+  margin-top: 50px; }
+.contacto a {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.3em; }
+.contacto .separador, .contacto .mail-ico {
+  display: inline-block;
+  margin: 10px 0 0 0; }
+.contacto .contact-social {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .contacto .contact-social li {
+    display: inline-block;
+    padding: 0 1%; }
+    .contacto .contact-social li a {
+      display: inline-block; }
 
 footer {
   background-color: #1d1d1d; }
