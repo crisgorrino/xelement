@@ -1,6 +1,6 @@
 body{padding-top:0!important;}
 header{
-	width:100%; position:fixed; background-image:url('../images/header/header-bg.png'); background-repeat:no-repeat; background-size:cover; height:75px; z-index: 1;
+	width:100%; position:fixed; background-image:url('../images/header/header-bg.png'); background-repeat:no-repeat; background-size:cover; height:75px; z-index: 5;
 	
 	.header-inner{ position:relative; width:960px; margin:0 auto;	
 		.logo{float:left;}		
