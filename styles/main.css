@@ -647,6 +647,54 @@ header {
   margin: 0;
   color: #fff; }
 
+#terra h2 {
+  color: #70d549; }
+
+#flamma h2 {
+  color: #f42434; }
+
+#ventus h2 {
+  color: #8c9192; }
+
+#aqua h2 {
+  color: #00acc8; }
+
+.panel-container .desc {
+  float: left;
+  width: 43%;
+  color: #fff;
+  text-align: right; }
+  .panel-container .desc h2 {
+    font-size: 2em;
+    letter-spacing: 2px; }
+  .panel-container .desc h3 {
+    font-size: 2em;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold; }
+  .panel-container .desc p {
+    font-size: .9em;
+    line-height: 30px; }
+  .panel-container .desc .info-nutricional {
+    display: inline-block; }
+  .panel-container .desc small {
+    display: block;
+    font-size: .7em;
+    margin-top: 5%; }
+
+.panel-container .tabla-cont {
+  float: right;
+  width: 55%; }
+  .panel-container .tabla-cont .separador {
+    float: left; }
+  .panel-container .tabla-cont .tabla {
+    float: right; }
+  .panel-container .tabla-cont .tabla-img {
+    padding-top: 12%;
+    display: block;
+    float: right; }
+
 footer {
   background-color: #1d1d1d; }
   footer .inner {

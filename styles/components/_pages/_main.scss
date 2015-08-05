@@ -71,3 +71,36 @@
     .panel-container { margin-bottom:0px;  background-color:#1d1d1d; margin-top:-20px;}
     .panel-container div{width:1004px; margin:0 auto; padding:20px 0;}
     .panel-container div h2{margin:0; color:#fff;}
+    
+    
+    #terra{
+	    h2{color:#70d549;}
+    }
+    
+    #flamma{
+    	h2{color:#f42434;}
+    }
+    
+    #ventus{
+	    h2{color:#8c9192;}
+    }
+    
+    #aqua{
+	    h2{color:#00acc8;}
+    }
+    
+   .panel-container .desc{float:left; width:43%;
+	    color:#fff;
+	    text-align:right;
+	    h2{font-size:2em; letter-spacing:2px;}
+	    h3{font-size:2em; margin:10px 0; text-transform: uppercase; letter-spacing:2px; font-weight: bold;}
+	    p{font-size:.9em; line-height:30px;}
+	    .info-nutricional{display: inline-block;}
+	    small{display:block; font-size:.7em; margin-top:5%;}
+    }
+    
+    .panel-container .tabla-cont{float:right; width:55%;
+	    .separador{float:left;}
+	    .tabla{float:right;}
+	    .tabla-img{padding-top:12%; display:block; float:right;}
+    }
