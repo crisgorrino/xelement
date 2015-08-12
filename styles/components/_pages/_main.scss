@@ -102,10 +102,12 @@
 }
 
 /*TABS for PRODUCTS*/
-
-	.etabs { margin: 0; padding: 0;  background-color:#282828; position: relative; width:1004px; margin:0 auto;
-		.tab-separator{position:absolute; width:129%; display:block;right: -141px;z-index: 2;top: -2px;}
+	
+	.tab-container{position:relative; 
+		.tab-separator{position: absolute;width: 100%;display: block;right: 9px;z-index: 3;top: 142px;}
 	}
+
+	.etabs { margin: 0; padding: 0;  background-color:#282828; position: relative; width:1004px; margin:0 auto;}
     .tab { display:block; float:left; height:443px/*469px*/; z-index: 1;}
     .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0; outline: none; }
     
