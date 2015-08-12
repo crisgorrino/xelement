@@ -22,7 +22,7 @@
 .fotos{
 	ul{margin:0; padding:0; list-style-type:none; overflow: hidden;
 		li{		
-				img{display:block; width:462px; height:384px;&:hover{ -webkit-filter: grayscale(1);filter: grayscale(1);}}
+				img{display:block; width:402px; height: 324px;&:hover{ -webkit-filter: grayscale(1);filter: grayscale(1);}}
 		}
 	}
 }
@@ -103,7 +103,9 @@
 
 /*TABS for PRODUCTS*/
 
-	.etabs { margin: 0; padding: 0;  background-color:#282828; position: relative; width:1004px; margin:0 auto;}
+	.etabs { margin: 0; padding: 0;  background-color:#282828; position: relative; width:1004px; margin:0 auto;
+		.tab-separator{position:absolute; width:129%; display:block;right: -141px;z-index: 2;top: -2px;}
+	}
     .tab { display:block; float:left; height:443px/*469px*/; z-index: 1;}
     .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0; outline: none; }
     
@@ -123,7 +125,9 @@
     .tab.active { background: #fff;position: relative;}
     .tab a.active { font-weight: bold; }
     
-    .tab-container{background-color:#282828;} 
+    .tab-container{background-color:#282828;
+	    h4{text-align:center; color:#fff; margin:0 auto; width:40%; line-height: 2em; padding:40px 0;}
+    } 
     .panel-container {clear:both;}
     .panel-container { margin-bottom:0px;  background-color:#1d1d1d; margin-top:-20px;}
     .panel-container div{width:1004px; margin:0 auto; padding:20px 0;}
@@ -131,7 +135,7 @@
     
     
     #terra{
-	    h2{color:#70d549;}
+	    h2{color:#70d549; }
     }
     
     #flamma{

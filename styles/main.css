@@ -504,8 +504,8 @@ header {
   overflow: hidden; }
   .fotos ul li img {
     display: block;
-    width: 462px;
-    height: 384px; }
+    width: 402px;
+    height: 324px; }
     .fotos ul li img:hover {
       -webkit-filter: grayscale(1);
       filter: grayscale(1); }
@@ -606,6 +606,13 @@ header {
   position: relative;
   width: 1004px;
   margin: 0 auto; }
+  .etabs .tab-separator {
+    position: absolute;
+    width: 129%;
+    display: block;
+    right: -141px;
+    z-index: 2;
+    top: -2px; }
 
 .tab {
   display: block;
@@ -692,6 +699,13 @@ header {
 
 .tab-container {
   background-color: #282828; }
+  .tab-container h4 {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    width: 40%;
+    line-height: 2em;
+    padding: 40px 0; }
 
 .panel-container {
   clear: both; }
