@@ -541,23 +541,23 @@ header {
 .prev {
   float: left;
   margin-left: 25%;
-  margin-top: -176px;
+  margin-top: -216px;
   position: relative;
   z-index: 10;
   text-decoration: none;
   color: #fff;
-  font-size: 2em;
+  font-size: 6em;
   font-weight: bold; }
 
 .next {
   float: right;
   margin-right: 25%;
-  margin-top: -176px;
+  margin-top: -216px;
   position: relative;
   z-index: 10;
   text-decoration: none;
   color: #fff;
-  font-size: 2em;
+  font-size: 6em;
   font-weight: bold; }
 
 .beneficios .ben-inner {
