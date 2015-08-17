@@ -246,16 +246,6 @@
 						buttons : {}
 					}
 				});
-				
-				
-				
-				$.preloadImages = function() {
-					for (var i = 0; i < arguments.length; i++) {
-						$("<img />").attr("src", arguments[i]);
-						}
-						}
-
-						$.preloadImages("images/productos/botella-terra-active.jpg","images/productos/botella-aqua-active.jpg","images/productos/botella-flamma-active.jpg","images/productos/botella-ventus-active.jpg");
 		    
 		});
 </script>
@@ -352,6 +342,14 @@ $( document ).ready(function() {
 
 	//start your engines
 	loadEmUp(start_url);
+	
+	
+	$.preloadImages = function() {
+					for (var i = 0; i < arguments.length; i++) {
+						$("<img />").attr("src", arguments[i]);}
+						}
+
+						$.preloadImages("images/productos/botella-terra-active.jpg","images/productos/botella-aqua-active.jpg","images/productos/botella-flamma-active.jpg","images/productos/botella-ventus-active.jpg");
 
 	
 });
