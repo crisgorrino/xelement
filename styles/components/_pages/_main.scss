@@ -22,7 +22,7 @@
 .fotos{
 	ul{margin:0; padding:0; list-style-type:none; overflow: hidden;
 		li{		
-				img{display:block; width:402px; height: 324px;&:hover{ -webkit-filter: grayscale(1);filter: grayscale(1);}}
+				img{display:block; width:402px; height: 324px; -webkit-filter: grayscale(1);filter: grayscale(1);&:hover{ -webkit-filter: grayscale(0);filter: grayscale(0);}}
 		}
 	}
 }

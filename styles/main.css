@@ -505,10 +505,12 @@ header {
   .fotos ul li img {
     display: block;
     width: 402px;
-    height: 324px; }
+    height: 324px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1); }
     .fotos ul li img:hover {
-      -webkit-filter: grayscale(1);
-      filter: grayscale(1); }
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0); }
 
 .caroufredsel_wrapper {
   width: 100% !important; }
