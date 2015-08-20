@@ -1,9 +1,9 @@
 /* Basic jQuery Slider essential styles */
 .banner-fade{max-width:100%!important; height:310px!important;}
 
-ul.bjqs{position:relative; list-style:none;padding:0;margin:0;overflow:hidden; display:none; background-color:#000;height:310px!important;}
+ul.bjqs{position:relative; list-style:none; padding:0; margin:0; overflow:hidden; display:none; background-color:#000; height:310px!important;}
 li.bjqs-slide{position:absolute; display:none;}
-li.bjqs-slide img{display:block; width:auto!important; margin:0 auto; height:310px!important;}
+li.bjqs-slide img{display:block; width:auto!important; margin:0 auto; height: 310px!important; width: 960px!important;}
 ul.bjqs-controls{list-style:none;margin:0;padding:0;z-index:9999; top:20%;}
 ul.bjqs-controls.v-centered li a{position:absolute; top:40%!important;}
 ul.bjqs-controls.v-centered li.bjqs-next a{right:35%; text-decoration: none; color:#fff; font-size: 1.7em}
