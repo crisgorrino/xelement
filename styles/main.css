@@ -477,6 +477,9 @@ header {
   margin: 0 auto; }
 
 /*temporary*/
+.beneficios {
+  padding: 30px 0; }
+
 .beneficios2, .productos, .contacto {
   padding: 50px 0; }
 
@@ -504,7 +507,7 @@ header {
   overflow: hidden; }
   .fotos ul li img {
     display: block;
-    width: 402px;
+    width: 324px;
     height: 324px;
     -webkit-filter: grayscale(1);
     filter: grayscale(1); }
@@ -577,7 +580,8 @@ header {
   float: left; }
 .beneficios .beneficios-img {
   display: inline-block;
-  float: right; }
+  float: right;
+  margin-top: 30px; }
 
 .contacto p:nth-of-type(2) {
   margin-top: 50px; }
