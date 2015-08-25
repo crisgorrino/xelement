@@ -108,21 +108,21 @@
 		.tab-separator{position: absolute;width: 100%;display: block;right: 9px;z-index: 3;top: 142px;}
 	}
 
-	.etabs { margin: 0; padding: 0;  background-color:#282828; position: relative; width:1004px; margin:0 auto;}
-    .tab { display:block; float:left; height:443px/*469px*/; z-index: 1;}
+	.etabs { margin: 0; padding: 0;  background-color:#282828; position: relative; width:960px; margin:0 auto;}
+    .tab { display:block; float:left; height:424px/*469px*/; z-index: 1;}
     .tab a { font-size: 14px; line-height: 2em; display: block; padding: 0; outline: none; }
     
-    .terra{width:251px; height:/*443px*/469px; background-image:url('../images/productos/botella-terra.jpg'); display: inline-block; background-repeat: no-repeat;}
-    .terra.active{width:251px; height:469px; background-image:url('../images/productos/botella-terra-active.jpg'); display: inline-block; background-repeat: no-repeat; /*background-color:#282828;*/}
+    .terra{width:240px; height:424px; background-image:url('../images/productos/botella-terra.jpg'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
+    .terra.active{width:240px; height:449px; background-image:url('../images/productos/botella-terra-active.png'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
     
-    .flamma{width:251px; height:/*443px*/ 469px; background-image:url('../images/productos/botella-flamma.jpg'); display: inline-block; background-repeat: no-repeat;}
-    .flamma.active{width:251px; height:469px; background-image:url('../images/productos/botella-flamma-active.jpg'); display: inline-block; background-repeat: no-repeat; /*background-color:#282828;*/}
+    .flamma{width:240px; height:424px; background-image:url('../images/productos/botella-flamma.jpg'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
+    .flamma.active{width:240px; height:449px; background-image:url('../images/productos/botella-flamma-active.png'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
     
-    .ventus{width:251px; height:/*443px*/ 469px; background-image:url('../images/productos/botella-ventus.jpg'); display: inline-block; background-repeat: no-repeat;}
-    .ventus.active{width:251px; height:469px; background-image:url('../images/productos/botella-ventus-active.jpg'); display: inline-block; background-repeat: no-repeat; /*background-color:#282828;*/}
+    .ventus{width:240px; height:424px; background-image:url('../images/productos/botella-ventus.jpg'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
+    .ventus.active{width:240px; height:449px; background-image:url('../images/productos/botella-ventus-active.png'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
     
-    .aqua{width:251px; height:/*443px*/ 469px; background-image:url('../images/productos/botella-aqua.jpg'); display: inline-block; background-repeat: no-repeat;}
-    .aqua.active{width:251px; height:469px; background-image:url('../images/productos/botella-aqua-active.jpg'); display: inline-block; background-repeat: no-repeat; /*background-color:#282828;*/}
+    .aqua{width:240px; height:424px; background-image:url('../images/productos/botella-aqua.jpg'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
+    .aqua.active{width:240px; height:449px; background-image:url('../images/productos/botella-aqua-active.png'); display: inline-block; background-repeat: no-repeat; background-size: cover;}
     
     .tab a:hover { text-decoration: underline; }
     .tab.active { background: #fff;position: relative;}
@@ -133,7 +133,7 @@
     } 
     .panel-container {clear:both;}
     .panel-container { margin-bottom:0px;  background-color:#1d1d1d; margin-top:-20px;}
-    .panel-container div{width:1004px; margin:0 auto; padding:20px 0;}
+    .panel-container div{width:960px; margin:0 auto; padding:20px 0;}
     .panel-container div h2{margin:0; color:#fff;}
     
     
